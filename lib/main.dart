@@ -30,11 +30,16 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class RootPage extends StatelessWidget {
+class RootPage extends StatefulWidget {
   const RootPage({
     super.key,
   });
 
+  @override
+  State<RootPage> createState() => _RootPageState();
+}
+
+class _RootPageState extends State<RootPage> {
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<User?>(
