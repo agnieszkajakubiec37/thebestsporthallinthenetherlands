@@ -9,8 +9,10 @@ class SportshallsPageContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<QuerySnapshot<Map<String, dynamic>>>(
-        stream:
-            FirebaseFirestore.instance.collection('sports halls').snapshots(),
+        stream: FirebaseFirestore.instance
+            .collection('sports halls')
+            .orderBy('rating', descending: true)
+            .snapshots(),
         builder: (context, snapshot) {
           if (snapshot.hasError) {
             return const Center(child: Text('Something went wrong'));
