@@ -31,7 +31,11 @@ class _HomePageState extends State<HomePage> {
           return const SportshallsPageContent();
         }
         if (currentIndex == 1) {
-          return const AddOpinionPageContent();
+          return AddOpinionPageContent(onSave: () {
+            setState(() {
+              currentIndex = 0;
+            });
+          });
         }
         return MyAccounPageContent(email: widget.user.email);
       }),
