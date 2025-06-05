@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:thebestsporthallinthenetherlands/app/home/add_opinion/add_opinion_page_content.dart';
-import 'package:thebestsporthallinthenetherlands/app/home/my_account/my_account_page.content.dart';
-import 'package:thebestsporthallinthenetherlands/app/home/sportshalls/sportshalls.page.content.dart';
+import 'package:thebestsporthallinthenetherlands/app/features/home/add_opinion/add_opinion_page_content.dart';
+import 'package:thebestsporthallinthenetherlands/app/features/home/my_account/my_account_page.content.dart';
+import 'package:thebestsporthallinthenetherlands/app/features/home/sportshalls/sportshalls.page.content.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:thebestsporthallinthenetherlands/app/home/sportshalls/cubit/sportshalls_cubit.dart';
+import 'package:thebestsporthallinthenetherlands/app/features/home/sportshalls/cubit/sportshalls_cubit.dart';
 
 class SportshallsPageContent extends StatelessWidget {
   const SportshallsPageContent({
