@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:thebestsporthallinwijkenaalburg/app/home/add_opinion/add_opinion_page_content.dart';
-import 'package:thebestsporthallinwijkenaalburg/app/home/my_account/my_account_page.content.dart';
-import 'package:thebestsporthallinwijkenaalburg/app/home/sportshalls/sportshalls.page.content.dart';
+import 'package:thebestsporthallinthenetherlands/app/features/home/add_opinion/add_opinion_page_content.dart';
+import 'package:thebestsporthallinthenetherlands/app/features/home/my_account/my_account_page.content.dart';
+import 'package:thebestsporthallinthenetherlands/app/features/home/sportshalls/sportshalls.page.content.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({
@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
-        title: const Text('The best sporthall in Wijk en Aalburg'),
+        title: const Text('The best sporthall in the Netherlands'),
       ),
       body: Builder(builder: (context) {
         if (currentIndex == 0) {

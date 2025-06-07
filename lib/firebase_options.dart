@@ -59,5 +59,4 @@ class DefaultFirebaseOptions {
     projectId: 'thebestsporthall',
     storageBucket: 'thebestsporthall.firebasestorage.app',
   );
-
 }
