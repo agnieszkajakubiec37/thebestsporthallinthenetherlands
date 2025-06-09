@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1066007621864",
+    "project_id": "thebestsporthall",
+    "storage_bucket": "thebestsporthall.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066007621864:android:5fc7a3cb345446c7d1995d",
+        "android_client_info": {
+          "package_name": "com.agnieszkajakubiec.thebestsporthallinwijkenaalburg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVNoy77cb6sz7ACOe1khtvRAA-Pz6DP6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066007621864:android:6b3a4dcb5ca49f0ed1995d",
+        "android_client_info": {
+          "package_name": "com.agnieszkajakubiec.thebestsporthallinwijkenaalburg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVNoy77cb6sz7ACOe1khtvRAA-Pz6DP6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
